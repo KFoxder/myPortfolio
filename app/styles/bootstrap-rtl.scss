@@ -1,0 +1,2101 @@
+//colors
+$color_gallery_approx: #eeeeee;
+$color_celeste_approx: #cccccc;
+$black_50: rgba(0, 0, 0, 0.5);
+$black_0: rgba(0, 0, 0, 0.0001);
+$color_killarney_approx: #3c763d;
+$black_7: rgba(0, 0, 0, 0.075);
+$color_lunar_green_approx: #2b542c;
+$color_fern_approx: #67b168;
+$color_willow_brook_approx: #dff0d8;
+$color_pesto_approx: #8a6d3b;
+$color_shingle_fawn_approx: #66512c;
+$color_twine_approx: #c0a16b;
+$color_solitaire_approx: #fcf8e3;
+$color_apple_blossom_approx: #a94442;
+$color_lotus_approx: #843534;
+$color_new_york_pink_approx: #ce8483;
+$color_vanilla_ice_approx: #f2dede;
+
+//@extend-elements
+//original selectors
+//.blockquote-reverse, blockquote.pull-left
+%extend_1 {
+	padding-left: 15px;
+	padding-right: 0;
+	border-left: 5px solid $color_gallery_approx;
+	border-right: 0;
+	text-align: left;
+}
+
+//original selectors
+//.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+%extend_2 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+//original selectors
+//.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]
+%extend_3 {
+	float: right;
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+//original selectors
+//.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn
+%extend_4 {
+	//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+	border-bottom-right-radius: 4px;
+	//Instead of the line below you could use @includeborder-top-right-radius($radius)
+	border-top-right-radius: 4px;
+	//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+	border-bottom-left-radius: 0;
+	//Instead of the line below you could use @includeborder-top-left-radius($radius)
+	border-top-left-radius: 0;
+}
+
+//original selectors
+//.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn
+%extend_5 {
+	//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+	border-bottom-left-radius: 4px;
+	//Instead of the line below you could use @includeborder-top-left-radius($radius)
+	border-top-left-radius: 4px;
+	//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+	border-bottom-right-radius: 0;
+	//Instead of the line below you could use @includeborder-top-right-radius($radius)
+	border-top-right-radius: 0;
+}
+
+//original selectors
+//.pagination > li > a, .pagination > li > span
+%extend_6 {
+	float: right;
+	margin-right: -1px;
+	margin-left: 0;
+}
+
+//original selectors
+//.pagination > li:first-child > a, .pagination > li:first-child > span
+%extend_7 {
+	margin-left: 0;
+	//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+	border-bottom-right-radius: 4px;
+	//Instead of the line below you could use @includeborder-top-right-radius($radius)
+	border-top-right-radius: 4px;
+	//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+	border-bottom-left-radius: 0;
+	//Instead of the line below you could use @includeborder-top-left-radius($radius)
+	border-top-left-radius: 0;
+}
+
+//original selectors
+//.pagination > li:last-child > a, .pagination > li:last-child > span
+%extend_8 {
+	margin-right: -1px;
+	//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+	border-bottom-left-radius: 4px;
+	//Instead of the line below you could use @includeborder-top-left-radius($radius)
+	border-top-left-radius: 4px;
+	//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+	border-bottom-right-radius: 0;
+	//Instead of the line below you could use @includeborder-top-right-radius($radius)
+	border-top-right-radius: 0;
+}
+
+//original selectors
+//.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left
+%extend_9 {
+	left: 50%;
+	right: auto;
+	margin-right: -10px;
+}
+
+//original selectors
+//.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right
+%extend_10 {
+	right: 50%;
+	left: auto;
+	margin-left: -10px;
+}
+
+
+html {
+	direction: rtl;
+}
+body {
+	direction: rtl;
+}
+.list-unstyled {
+	padding-right: 0;
+	padding-left: none;
+}
+.list-inline {
+	padding-right: 0;
+	padding-left: none;
+	margin-right: -5px;
+	margin-left: 0;
+}
+dd {
+	margin-right: 0;
+	margin-left: none;
+}
+@media(min-width: 768px) {
+	.navbar-text {
+		float: right;
+		&.navbar-right:last-child {
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+}
+blockquote {
+	border-right: 5px solid $color_gallery_approx;
+	border-left: 0;
+	&.pull-left {
+		@extend %extend_1;
+	}
+}
+.blockquote-reverse {
+	@extend %extend_1;
+}
+.col-xs-1 {
+	@extend %extend_2;
+	float: right;
+	width: 8.33333333%;
+}
+.col-sm-1 {
+	@extend %extend_2;
+}
+.col-md-1 {
+	@extend %extend_2;
+}
+.col-lg-1 {
+	@extend %extend_2;
+}
+.col-xs-2 {
+	@extend %extend_2;
+	float: right;
+	width: 16.66666667%;
+}
+.col-sm-2 {
+	@extend %extend_2;
+}
+.col-md-2 {
+	@extend %extend_2;
+}
+.col-lg-2 {
+	@extend %extend_2;
+}
+.col-xs-3 {
+	@extend %extend_2;
+	float: right;
+	width: 25%;
+}
+.col-sm-3 {
+	@extend %extend_2;
+}
+.col-md-3 {
+	@extend %extend_2;
+}
+.col-lg-3 {
+	@extend %extend_2;
+}
+.col-xs-4 {
+	@extend %extend_2;
+	float: right;
+	width: 33.33333333%;
+}
+.col-sm-4 {
+	@extend %extend_2;
+}
+.col-md-4 {
+	@extend %extend_2;
+}
+.col-lg-4 {
+	@extend %extend_2;
+}
+.col-xs-5 {
+	@extend %extend_2;
+	float: right;
+	width: 41.66666667%;
+}
+.col-sm-5 {
+	@extend %extend_2;
+}
+.col-md-5 {
+	@extend %extend_2;
+}
+.col-lg-5 {
+	@extend %extend_2;
+}
+.col-xs-6 {
+	@extend %extend_2;
+	float: right;
+	width: 50%;
+}
+.col-sm-6 {
+	@extend %extend_2;
+}
+.col-md-6 {
+	@extend %extend_2;
+}
+.col-lg-6 {
+	@extend %extend_2;
+}
+.col-xs-7 {
+	@extend %extend_2;
+	float: right;
+	width: 58.33333333%;
+}
+.col-sm-7 {
+	@extend %extend_2;
+}
+.col-md-7 {
+	@extend %extend_2;
+}
+.col-lg-7 {
+	@extend %extend_2;
+}
+.col-xs-8 {
+	@extend %extend_2;
+	float: right;
+	width: 66.66666667%;
+}
+.col-sm-8 {
+	@extend %extend_2;
+}
+.col-md-8 {
+	@extend %extend_2;
+}
+.col-lg-8 {
+	@extend %extend_2;
+}
+.col-xs-9 {
+	@extend %extend_2;
+	float: right;
+	width: 75%;
+}
+.col-sm-9 {
+	@extend %extend_2;
+}
+.col-md-9 {
+	@extend %extend_2;
+}
+.col-lg-9 {
+	@extend %extend_2;
+}
+.col-xs-10 {
+	@extend %extend_2;
+	float: right;
+	width: 83.33333333%;
+}
+.col-sm-10 {
+	@extend %extend_2;
+}
+.col-md-10 {
+	@extend %extend_2;
+}
+.col-lg-10 {
+	@extend %extend_2;
+}
+.col-xs-11 {
+	@extend %extend_2;
+	float: right;
+	width: 91.66666667%;
+}
+.col-sm-11 {
+	@extend %extend_2;
+}
+.col-md-11 {
+	@extend %extend_2;
+}
+.col-lg-11 {
+	@extend %extend_2;
+}
+.col-xs-12 {
+	@extend %extend_2;
+	float: right;
+	width: 100%;
+}
+.col-sm-12 {
+	@extend %extend_2;
+}
+.col-md-12 {
+	@extend %extend_2;
+}
+.col-lg-12 {
+	@extend %extend_2;
+}
+.col-xs-pull-12 {
+	left: 100%;
+	right: auto;
+}
+.col-xs-pull-11 {
+	left: 91.66666667%;
+	right: auto;
+}
+.col-xs-pull-10 {
+	left: 83.33333333%;
+	right: auto;
+}
+.col-xs-pull-9 {
+	left: 75%;
+	right: auto;
+}
+.col-xs-pull-8 {
+	left: 66.66666667%;
+	right: auto;
+}
+.col-xs-pull-7 {
+	left: 58.33333333%;
+	right: auto;
+}
+.col-xs-pull-6 {
+	left: 50%;
+	right: auto;
+}
+.col-xs-pull-5 {
+	left: 41.66666667%;
+	right: auto;
+}
+.col-xs-pull-4 {
+	left: 33.33333333%;
+	right: auto;
+}
+.col-xs-pull-3 {
+	left: 25%;
+	right: auto;
+}
+.col-xs-pull-2 {
+	left: 16.66666667%;
+	right: auto;
+}
+.col-xs-pull-1 {
+	left: 8.33333333%;
+	right: auto;
+}
+.col-xs-pull-0 {
+	left: auto;
+	right: auto;
+}
+.col-xs-push-12 {
+	right: 100%;
+	left: 0;
+}
+.col-xs-push-11 {
+	right: 91.66666667%;
+	left: 0;
+}
+.col-xs-push-10 {
+	right: 83.33333333%;
+	left: 0;
+}
+.col-xs-push-9 {
+	right: 75%;
+	left: 0;
+}
+.col-xs-push-8 {
+	right: 66.66666667%;
+	left: 0;
+}
+.col-xs-push-7 {
+	right: 58.33333333%;
+	left: 0;
+}
+.col-xs-push-6 {
+	right: 50%;
+	left: 0;
+}
+.col-xs-push-5 {
+	right: 41.66666667%;
+	left: 0;
+}
+.col-xs-push-4 {
+	right: 33.33333333%;
+	left: 0;
+}
+.col-xs-push-3 {
+	right: 25%;
+	left: 0;
+}
+.col-xs-push-2 {
+	right: 16.66666667%;
+	left: 0;
+}
+.col-xs-push-1 {
+	right: 8.33333333%;
+	left: 0;
+}
+.col-xs-push-0 {
+	right: auto;
+	left: 0;
+}
+.col-xs-offset-12 {
+	margin-right: 100%;
+	margin-left: 0;
+}
+.col-xs-offset-11 {
+	margin-right: 91.66666667%;
+	margin-left: 0;
+}
+.col-xs-offset-10 {
+	margin-right: 83.33333333%;
+	margin-left: 0;
+}
+.col-xs-offset-9 {
+	margin-right: 75%;
+	margin-left: 0;
+}
+.col-xs-offset-8 {
+	margin-right: 66.66666667%;
+	margin-left: 0;
+}
+.col-xs-offset-7 {
+	margin-right: 58.33333333%;
+	margin-left: 0;
+}
+.col-xs-offset-6 {
+	margin-right: 50%;
+	margin-left: 0;
+}
+.col-xs-offset-5 {
+	margin-right: 41.66666667%;
+	margin-left: 0;
+}
+.col-xs-offset-4 {
+	margin-right: 33.33333333%;
+	margin-left: 0;
+}
+.col-xs-offset-3 {
+	margin-right: 25%;
+	margin-left: 0;
+}
+.col-xs-offset-2 {
+	margin-right: 16.66666667%;
+	margin-left: 0;
+}
+.col-xs-offset-1 {
+	margin-right: 8.33333333%;
+	margin-left: 0;
+}
+.col-xs-offset-0 {
+	margin-right: 0;
+	margin-left: 0;
+}
+@media(min-width: 992px) {
+	.col-md-1 {
+		float: right;
+		width: 8.33333333%;
+	}
+	.col-md-2 {
+		float: right;
+		width: 16.66666667%;
+	}
+	.col-md-3 {
+		float: right;
+		width: 25%;
+	}
+	.col-md-4 {
+		float: right;
+		width: 33.33333333%;
+	}
+	.col-md-5 {
+		float: right;
+		width: 41.66666667%;
+	}
+	.col-md-6 {
+		float: right;
+		width: 50%;
+	}
+	.col-md-7 {
+		float: right;
+		width: 58.33333333%;
+	}
+	.col-md-8 {
+		float: right;
+		width: 66.66666667%;
+	}
+	.col-md-9 {
+		float: right;
+		width: 75%;
+	}
+	.col-md-10 {
+		float: right;
+		width: 83.33333333%;
+	}
+	.col-md-11 {
+		float: right;
+		width: 91.66666667%;
+	}
+	.col-md-12 {
+		float: right;
+		width: 100%;
+	}
+	.col-md-pull-12 {
+		left: 100%;
+		right: auto;
+	}
+	.col-md-pull-11 {
+		left: 91.66666667%;
+		right: auto;
+	}
+	.col-md-pull-10 {
+		left: 83.33333333%;
+		right: auto;
+	}
+	.col-md-pull-9 {
+		left: 75%;
+		right: auto;
+	}
+	.col-md-pull-8 {
+		left: 66.66666667%;
+		right: auto;
+	}
+	.col-md-pull-7 {
+		left: 58.33333333%;
+		right: auto;
+	}
+	.col-md-pull-6 {
+		left: 50%;
+		right: auto;
+	}
+	.col-md-pull-5 {
+		left: 41.66666667%;
+		right: auto;
+	}
+	.col-md-pull-4 {
+		left: 33.33333333%;
+		right: auto;
+	}
+	.col-md-pull-3 {
+		left: 25%;
+		right: auto;
+	}
+	.col-md-pull-2 {
+		left: 16.66666667%;
+		right: auto;
+	}
+	.col-md-pull-1 {
+		left: 8.33333333%;
+		right: auto;
+	}
+	.col-md-pull-0 {
+		left: auto;
+		right: auto;
+	}
+	.col-md-push-12 {
+		right: 100%;
+		left: 0;
+	}
+	.col-md-push-11 {
+		right: 91.66666667%;
+		left: 0;
+	}
+	.col-md-push-10 {
+		right: 83.33333333%;
+		left: 0;
+	}
+	.col-md-push-9 {
+		right: 75%;
+		left: 0;
+	}
+	.col-md-push-8 {
+		right: 66.66666667%;
+		left: 0;
+	}
+	.col-md-push-7 {
+		right: 58.33333333%;
+		left: 0;
+	}
+	.col-md-push-6 {
+		right: 50%;
+		left: 0;
+	}
+	.col-md-push-5 {
+		right: 41.66666667%;
+		left: 0;
+	}
+	.col-md-push-4 {
+		right: 33.33333333%;
+		left: 0;
+	}
+	.col-md-push-3 {
+		right: 25%;
+		left: 0;
+	}
+	.col-md-push-2 {
+		right: 16.66666667%;
+		left: 0;
+	}
+	.col-md-push-1 {
+		right: 8.33333333%;
+		left: 0;
+	}
+	.col-md-push-0 {
+		right: auto;
+		left: 0;
+	}
+	.col-md-offset-12 {
+		margin-right: 100%;
+		margin-left: 0;
+	}
+	.col-md-offset-11 {
+		margin-right: 91.66666667%;
+		margin-left: 0;
+	}
+	.col-md-offset-10 {
+		margin-right: 83.33333333%;
+		margin-left: 0;
+	}
+	.col-md-offset-9 {
+		margin-right: 75%;
+		margin-left: 0;
+	}
+	.col-md-offset-8 {
+		margin-right: 66.66666667%;
+		margin-left: 0;
+	}
+	.col-md-offset-7 {
+		margin-right: 58.33333333%;
+		margin-left: 0;
+	}
+	.col-md-offset-6 {
+		margin-right: 50%;
+		margin-left: 0;
+	}
+	.col-md-offset-5 {
+		margin-right: 41.66666667%;
+		margin-left: 0;
+	}
+	.col-md-offset-4 {
+		margin-right: 33.33333333%;
+		margin-left: 0;
+	}
+	.col-md-offset-3 {
+		margin-right: 25%;
+		margin-left: 0;
+	}
+	.col-md-offset-2 {
+		margin-right: 16.66666667%;
+		margin-left: 0;
+	}
+	.col-md-offset-1 {
+		margin-right: 8.33333333%;
+		margin-left: 0;
+	}
+	.col-md-offset-0 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media(min-width: 1200px) {
+	.col-lg-1 {
+		float: right;
+		width: 8.33333333%;
+	}
+	.col-lg-2 {
+		float: right;
+		width: 16.66666667%;
+	}
+	.col-lg-3 {
+		float: right;
+		width: 25%;
+	}
+	.col-lg-4 {
+		float: right;
+		width: 33.33333333%;
+	}
+	.col-lg-5 {
+		float: right;
+		width: 41.66666667%;
+	}
+	.col-lg-6 {
+		float: right;
+		width: 50%;
+	}
+	.col-lg-7 {
+		float: right;
+		width: 58.33333333%;
+	}
+	.col-lg-8 {
+		float: right;
+		width: 66.66666667%;
+	}
+	.col-lg-9 {
+		float: right;
+		width: 75%;
+	}
+	.col-lg-10 {
+		float: right;
+		width: 83.33333333%;
+	}
+	.col-lg-11 {
+		float: right;
+		width: 91.66666667%;
+	}
+	.col-lg-12 {
+		float: right;
+		width: 100%;
+	}
+	.col-lg-pull-12 {
+		left: 100%;
+		right: auto;
+	}
+	.col-lg-pull-11 {
+		left: 91.66666667%;
+		right: auto;
+	}
+	.col-lg-pull-10 {
+		left: 83.33333333%;
+		right: auto;
+	}
+	.col-lg-pull-9 {
+		left: 75%;
+		right: auto;
+	}
+	.col-lg-pull-8 {
+		left: 66.66666667%;
+		right: auto;
+	}
+	.col-lg-pull-7 {
+		left: 58.33333333%;
+		right: auto;
+	}
+	.col-lg-pull-6 {
+		left: 50%;
+		right: auto;
+	}
+	.col-lg-pull-5 {
+		left: 41.66666667%;
+		right: auto;
+	}
+	.col-lg-pull-4 {
+		left: 33.33333333%;
+		right: auto;
+	}
+	.col-lg-pull-3 {
+		left: 25%;
+		right: auto;
+	}
+	.col-lg-pull-2 {
+		left: 16.66666667%;
+		right: auto;
+	}
+	.col-lg-pull-1 {
+		left: 8.33333333%;
+		right: auto;
+	}
+	.col-lg-pull-0 {
+		left: auto;
+		right: auto;
+	}
+	.col-lg-push-12 {
+		right: 100%;
+		left: 0;
+	}
+	.col-lg-push-11 {
+		right: 91.66666667%;
+		left: 0;
+	}
+	.col-lg-push-10 {
+		right: 83.33333333%;
+		left: 0;
+	}
+	.col-lg-push-9 {
+		right: 75%;
+		left: 0;
+	}
+	.col-lg-push-8 {
+		right: 66.66666667%;
+		left: 0;
+	}
+	.col-lg-push-7 {
+		right: 58.33333333%;
+		left: 0;
+	}
+	.col-lg-push-6 {
+		right: 50%;
+		left: 0;
+	}
+	.col-lg-push-5 {
+		right: 41.66666667%;
+		left: 0;
+	}
+	.col-lg-push-4 {
+		right: 33.33333333%;
+		left: 0;
+	}
+	.col-lg-push-3 {
+		right: 25%;
+		left: 0;
+	}
+	.col-lg-push-2 {
+		right: 16.66666667%;
+		left: 0;
+	}
+	.col-lg-push-1 {
+		right: 8.33333333%;
+		left: 0;
+	}
+	.col-lg-push-0 {
+		right: auto;
+		left: 0;
+	}
+	.col-lg-offset-12 {
+		margin-right: 100%;
+		margin-left: 0;
+	}
+	.col-lg-offset-11 {
+		margin-right: 91.66666667%;
+		margin-left: 0;
+	}
+	.col-lg-offset-10 {
+		margin-right: 83.33333333%;
+		margin-left: 0;
+	}
+	.col-lg-offset-9 {
+		margin-right: 75%;
+		margin-left: 0;
+	}
+	.col-lg-offset-8 {
+		margin-right: 66.66666667%;
+		margin-left: 0;
+	}
+	.col-lg-offset-7 {
+		margin-right: 58.33333333%;
+		margin-left: 0;
+	}
+	.col-lg-offset-6 {
+		margin-right: 50%;
+		margin-left: 0;
+	}
+	.col-lg-offset-5 {
+		margin-right: 41.66666667%;
+		margin-left: 0;
+	}
+	.col-lg-offset-4 {
+		margin-right: 33.33333333%;
+		margin-left: 0;
+	}
+	.col-lg-offset-3 {
+		margin-right: 25%;
+		margin-left: 0;
+	}
+	.col-lg-offset-2 {
+		margin-right: 16.66666667%;
+		margin-left: 0;
+	}
+	.col-lg-offset-1 {
+		margin-right: 8.33333333%;
+		margin-left: 0;
+	}
+	.col-lg-offset-0 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+th {
+	text-align: right;
+}
+@media screen and(max-width: 767px) {
+	.table-responsive > .table-bordered {
+		border: 0;
+		> {
+			thead > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+			}
+			tbody > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+			}
+			tfoot > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: auto;
+					}
+					&:last-child {
+						border-left: 0;
+						border-right: auto;
+					}
+				}
+			}
+		}
+	}
+}
+.radio {
+	label {
+		padding-right: 20px;
+		padding-left: auto;
+	}
+	input[type="radio"] {
+		@extend %extend_3;
+	}
+}
+.checkbox {
+	label {
+		padding-right: 20px;
+		padding-left: auto;
+	}
+	input[type="checkbox"] {
+		@extend %extend_3;
+	}
+}
+.radio-inline {
+	padding-right: 20px;
+	padding-left: 0;
+	input[type="radio"] {
+		@extend %extend_3;
+	}
+	+ .radio-inline {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+}
+.checkbox-inline {
+	padding-right: 20px;
+	padding-left: 0;
+	input[type="checkbox"] {
+		@extend %extend_3;
+	}
+	+ .checkbox-inline {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+}
+.form-control-feedback {
+	left: 0;
+	right: auto;
+}
+.caret {
+	margin-right: 2px;
+	margin-left: 0;
+}
+.dropdown-menu {
+	right: 0;
+	left: auto;
+	float: left;
+	text-align: right;
+	&.pull-left {
+		left: 0;
+		float: right;
+		right: auto;
+	}
+}
+.pull-left {
+	&.flip {
+		float: right !important;
+	}
+	> .dropdown-menu {
+		left: 0;
+		float: right;
+		right: auto;
+	}
+}
+.navbar-nav {
+	&.pull-left > li > .dropdown-menu {
+		right: auto;
+		left: 0;
+	}
+	> li > .dropdown-menu.pull-left {
+		right: auto;
+		left: 0;
+	}
+}
+.btn-group {
+	> {
+		.btn {
+			float: right;
+			&:hover {
+				z-index: 2;
+			}
+			&:focus {
+				z-index: 2;
+			}
+			&:active {
+				z-index: 2;
+			}
+			&.active {
+				z-index: 2;
+			}
+			&:first-child {
+				margin-right: 0;
+				&:not(:last-child):not(.dropdown-toggle) {
+					//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+					border-bottom-left-radius: 0;
+					//Instead of the line below you could use @includeborder-top-left-radius($radius)
+					border-top-left-radius: 0;
+				}
+			}
+			&:last-child:not(:first-child) {
+				//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+				border-bottom-right-radius: 0;
+				//Instead of the line below you could use @includeborder-top-right-radius($radius)
+				border-top-right-radius: 0;
+			}
+		}
+		.btn-group {
+			float: right;
+			&:not(:first-child):not(:last-child) > .btn {
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 0;
+			}
+			&:first-child > {
+				.dropdown-toggle {
+					//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+					border-bottom-left-radius: 0;
+					//Instead of the line below you could use @includeborder-top-left-radius($radius)
+					border-top-left-radius: 0;
+				}
+				.btn:last-child {
+					//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+					border-bottom-left-radius: 0;
+					//Instead of the line below you could use @includeborder-top-left-radius($radius)
+					border-top-left-radius: 0;
+				}
+			}
+			&:last-child > .btn:first-child {
+				//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+				border-bottom-right-radius: 0;
+				//Instead of the line below you could use @includeborder-top-right-radius($radius)
+				border-top-right-radius: 0;
+			}
+		}
+		.dropdown-toggle:not(:first-child) {
+			//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+			border-bottom-right-radius: 0;
+			//Instead of the line below you could use @includeborder-top-right-radius($radius)
+			border-top-right-radius: 0;
+		}
+	}
+	.btn + {
+		.btn {
+			margin-right: -1px;
+			margin-left: 0;
+		}
+		.btn-group {
+			margin-right: -1px;
+			margin-left: 0;
+		}
+	}
+	.btn-group + {
+		.btn {
+			margin-right: -1px;
+			margin-left: 0;
+		}
+		.btn-group {
+			margin-right: -1px;
+			margin-left: 0;
+		}
+	}
+}
+.btn-toolbar {
+	margin-right: -5px;
+	margin-left: 0;
+	.btn-group {
+		float: right;
+	}
+	.input-group {
+		float: right;
+	}
+	> {
+		.btn {
+			margin-right: 5px;
+			margin-left: 0;
+		}
+		.btn-group {
+			margin-right: 5px;
+			margin-left: 0;
+		}
+		.input-group {
+			margin-right: 5px;
+			margin-left: 0;
+		}
+	}
+}
+.input-group-addon {
+	&:first-child {
+		@extend %extend_4;
+		border-right: 1px solid $color_celeste_approx;
+		border-left: 0;
+	}
+	&:last-child {
+		@extend %extend_5;
+		border-left: 1px solid $color_celeste_approx;
+		border-right: 0;
+	}
+}
+.input-group-btn {
+	&:first-child > {
+		.btn {
+			@extend %extend_4;
+			margin-left: -1px;
+			margin-right: auto;
+			&:not(:first-child) {
+				@extend %extend_5;
+			}
+		}
+		.btn-group {
+			margin-left: -1px;
+			margin-right: auto;
+			> .btn {
+				@extend %extend_4;
+			}
+			&:not(:first-child) > .btn {
+				@extend %extend_5;
+			}
+		}
+		.dropdown-toggle {
+			@extend %extend_4;
+		}
+	}
+	&:last-child > {
+		.btn {
+			@extend %extend_5;
+			margin-right: -1px;
+			margin-left: auto;
+			&:not(:last-child):not(.dropdown-toggle) {
+				@extend %extend_4;
+			}
+		}
+		.btn-group {
+			margin-right: -1px;
+			margin-left: auto;
+			&:not(:last-child) > .btn {
+				@extend %extend_4;
+			}
+			> .btn {
+				@extend %extend_5;
+			}
+		}
+		.dropdown-toggle {
+			@extend %extend_5;
+		}
+	}
+	> .btn + .btn {
+		margin-right: -1px;
+		margin-left: auto;
+	}
+}
+.nav {
+	padding-right: 0;
+	padding-left: auto;
+}
+.navbar-collapse {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navbar-brand {
+	float: right;
+}
+.navbar-toggle {
+	float: left;
+	margin-left: 15px;
+	margin-right: auto;
+}
+@media(max-width: 767px) {
+	.navbar-nav .open .dropdown-menu {
+		.dropdown-header {
+			padding: 5px 25px 5px 15px;
+		}
+		> li > a {
+			padding: 5px 25px 5px 15px;
+		}
+	}
+}
+.pagination {
+	padding-right: 0;
+	> li {
+		> {
+			a {
+				@extend %extend_6;
+			}
+			span {
+				@extend %extend_6;
+			}
+		}
+		&:first-child > {
+			a {
+				@extend %extend_7;
+			}
+			span {
+				@extend %extend_7;
+			}
+		}
+		&:last-child > {
+			a {
+				@extend %extend_8;
+			}
+			span {
+				@extend %extend_8;
+			}
+		}
+	}
+}
+.pager {
+	padding-right: 0;
+	padding-left: none;
+	.next > {
+		a {
+			float: left;
+		}
+		span {
+			float: left;
+		}
+	}
+	.previous > {
+		a {
+			float: right;
+		}
+		span {
+			float: right;
+		}
+	}
+}
+.alert-dismissable {
+	padding-left: 35px;
+	padding-right: 15px;
+	.close {
+		top: -2px;
+		right: 0;
+		left: 21;
+	}
+}
+.progress-bar {
+	float: right;
+}
+.media {
+	overflow: hidden;
+	zoom: 1;
+	> {
+		.pull-left {
+			margin-right: 10px;
+			&.flip {
+				margin-right: 0;
+				margin-left: 10px;
+			}
+		}
+		.pull-right {
+			margin-left: 10px;
+			&.flip {
+				margin-left: 0;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.media-body {
+	overflow: hidden;
+	zoom: 1;
+}
+.media-list {
+	padding-right: 0;
+	padding-left: auto;
+	list-style: none;
+}
+.list-group {
+	padding-right: 0;
+	padding-left: none;
+}
+.embed-responsive {
+	.embed-responsive-item {
+		right: 0;
+		left: none;
+	}
+	iframe {
+		right: 0;
+		left: none;
+	}
+	embed {
+		right: 0;
+		left: none;
+	}
+	object {
+		right: 0;
+		left: none;
+	}
+}
+.close {
+	float: left;
+}
+.modal-footer {
+	text-align: left;
+	.btn + .btn {
+		margin-left: 0;
+		margin-right: 5px;
+	}
+	.btn-group .btn + .btn {
+		margin-right: -1px;
+		margin-left: 0;
+	}
+	.btn-block + .btn-block {
+		margin-right: 0;
+		margin-left: none;
+	}
+}
+.popover {
+	right: 0;
+	left: none;
+	text-align: right;
+	&.top > .arrow {
+		right: 50%;
+		left: none;
+		margin-right: -11px;
+		margin-left: 0;
+		&:after {
+			margin-right: -10px;
+			margin-left: 0;
+		}
+	}
+}
+.carousel-control {
+	right: 0;
+	bottom: 0;
+	&.left {
+		right: auto;
+		left: 0;
+		background-image: linear-gradient(to right, $black_50 0, $black_0 100%);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	}
+	&.right {
+		left: auto;
+		right: 0;
+		background-image: linear-gradient(to right, $black_0 0, $black_50 100%);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	}
+	.icon-prev {
+		@extend %extend_9;
+	}
+	.glyphicon-chevron-left {
+		@extend %extend_9;
+	}
+	.icon-next {
+		@extend %extend_10;
+	}
+	.glyphicon-chevron-right {
+		@extend %extend_10;
+	}
+}
+.carousel-indicators {
+	right: 50%;
+	left: 0;
+	margin-right: -30%;
+	margin-left: 0;
+	padding-left: 0;
+}
+@media screen and(min-width: 768px) {
+	.carousel-control {
+		.glyphicon-chevron-left {
+			margin-left: 0;
+			margin-right: -15px;
+		}
+		.icon-prev {
+			margin-left: 0;
+			margin-right: -15px;
+		}
+		.glyphicon-chevron-right {
+			margin-left: 0;
+			margin-right: -15px;
+		}
+		.icon-next {
+			margin-left: 0;
+			margin-right: -15px;
+		}
+	}
+	.carousel-caption {
+		left: 20%;
+		right: 20%;
+		padding-bottom: 30px;
+	}
+}
+.has-success {
+	.help-block {
+		color: $color_killarney_approx;
+	}
+	.control-label {
+		color: $color_killarney_approx;
+	}
+	.radio {
+		color: $color_killarney_approx;
+	}
+	.checkbox {
+		color: $color_killarney_approx;
+	}
+	.radio-inline {
+		color: $color_killarney_approx;
+	}
+	.checkbox-inline {
+		color: $color_killarney_approx;
+	}
+	.form-control {
+		border-color: $color_killarney_approx;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: inset 0 1px 1px $black_7;
+		&:focus {
+			border-color: $color_lunar_green_approx;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 1px 1px $black_7, 0 0 6px $color_fern_approx;
+		}
+	}
+	.input-group-addon {
+		color: $color_killarney_approx;
+		background-color: $color_willow_brook_approx;
+		border-color: $color_killarney_approx;
+	}
+	.form-control-feedback {
+		color: $color_killarney_approx;
+	}
+}
+.has-warning {
+	.help-block {
+		color: $color_pesto_approx;
+	}
+	.control-label {
+		color: $color_pesto_approx;
+	}
+	.radio {
+		color: $color_pesto_approx;
+	}
+	.checkbox {
+		color: $color_pesto_approx;
+	}
+	.radio-inline {
+		color: $color_pesto_approx;
+	}
+	.checkbox-inline {
+		color: $color_pesto_approx;
+	}
+	.form-control {
+		border-color: $color_pesto_approx;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: inset 0 1px 1px $black_7;
+		&:focus {
+			border-color: $color_shingle_fawn_approx;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 1px 1px $black_7, 0 0 6px $color_twine_approx;
+		}
+	}
+	.input-group-addon {
+		color: $color_pesto_approx;
+		background-color: $color_solitaire_approx;
+		border-color: $color_pesto_approx;
+	}
+	.form-control-feedback {
+		color: $color_pesto_approx;
+	}
+}
+.has-error {
+	.help-block {
+		color: $color_apple_blossom_approx;
+	}
+	.control-label {
+		color: $color_apple_blossom_approx;
+	}
+	.radio {
+		color: $color_apple_blossom_approx;
+	}
+	.checkbox {
+		color: $color_apple_blossom_approx;
+	}
+	.radio-inline {
+		color: $color_apple_blossom_approx;
+	}
+	.checkbox-inline {
+		color: $color_apple_blossom_approx;
+	}
+	.form-control {
+		border-color: $color_apple_blossom_approx;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: inset 0 1px 1px $black_7;
+		&:focus {
+			border-color: $color_lotus_approx;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 1px 1px $black_7, 0 0 6px $color_new_york_pink_approx;
+		}
+	}
+	.input-group-addon {
+		color: $color_apple_blossom_approx;
+		background-color: $color_vanilla_ice_approx;
+		border-color: $color_apple_blossom_approx;
+	}
+	.form-control-feedback {
+		color: $color_apple_blossom_approx;
+	}
+}
+.has-feedback .form-control {
+	padding-left: 42.5px;
+	padding-right: auto;
+}
+.form-horizontal .has-feedback .form-control-feedback {
+	left: 15px;
+	right: auto;
+}
+.btn-group-vertical > {
+	.btn {
+		float: right;
+		&:hover {
+			z-index: 2;
+		}
+		&:focus {
+			z-index: 2;
+		}
+		&:active {
+			z-index: 2;
+		}
+		&.active {
+			z-index: 2;
+		}
+		+ {
+			.btn {
+				margin-top: -1px;
+				margin-right: 0;
+			}
+			.btn-group {
+				margin-top: -1px;
+				margin-right: 0;
+			}
+		}
+	}
+	.btn-group + {
+		.btn {
+			margin-top: -1px;
+			margin-right: 0;
+		}
+		.btn-group {
+			margin-top: -1px;
+			margin-right: 0;
+		}
+	}
+}
+.btn .caret {
+	margin-right: 0;
+}
+.input-group .form-control {
+	float: right;
+	&:first-child {
+		@extend %extend_4;
+	}
+	&:last-child {
+		@extend %extend_5;
+	}
+}
+.nav-tabs > li {
+	float: right;
+	> a {
+		margin-left: auto;
+		margin-right: -2px;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 4px 4px 0 0;
+	}
+}
+.nav-pills > li {
+	float: right;
+	> a {
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 4px;
+		> .badge {
+			margin-left: 0;
+			margin-right: 3px;
+		}
+	}
+	+ li {
+		margin-right: 2px;
+		margin-left: auto;
+	}
+}
+.nav-stacked > li {
+	float: none;
+	+ li {
+		margin-right: 0;
+		margin-left: auto;
+	}
+}
+.nav-justified > .dropdown .dropdown-menu {
+	right: auto;
+}
+.nav-tabs-justified > li > a {
+	margin-left: 0;
+	margin-right: auto;
+}
+.list-group-item > .badge {
+	float: left;
+	+ .badge {
+		margin-ight: 5px;
+		margin-left: 0;
+	}
+}
+.panel > {
+	.table {
+		&:first-child > {
+			thead:first-child > tr:first-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+			}
+			tbody:first-child > tr:first-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+			}
+		}
+		&:last-child > {
+			tbody:last-child > tr:last-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+			}
+			tfoot:last-child > tr:last-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+			}
+		}
+	}
+	.table-responsive {
+		&:first-child > .table:first-child > {
+			thead:first-child > tr:first-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+			}
+			tbody:first-child > tr:first-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+				}
+			}
+		}
+		&:last-child > .table:last-child > {
+			tbody:last-child > tr:last-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+			}
+			tfoot:last-child > tr:last-child {
+				td {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+				th {
+					&:first-child {
+						//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+						border-bottom-left-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-right-radius($radius)
+						border-top-right-radius: 0;
+					}
+					&:last-child {
+						//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+						border-bottom-right-radius: 3px;
+						//Instead of the line below you could use @includeborder-top-left-radius($radius)
+						border-top-left-radius: 0;
+					}
+				}
+			}
+		}
+		> .table-bordered > {
+			thead > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+			}
+			tbody > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+			}
+			tfoot > tr > {
+				th {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+				td {
+					&:first-child {
+						border-right: 0;
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+						border-left: 0;
+					}
+				}
+			}
+		}
+	}
+	.table-bordered > {
+		thead > tr > {
+			th {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+			td {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+		}
+		tbody > tr > {
+			th {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+			td {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+		}
+		tfoot > tr > {
+			th {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+			td {
+				&:first-child {
+					border-right: 0;
+					border-left: none;
+				}
+				&:last-child {
+					border-right: none;
+					border-left: 0;
+				}
+			}
+		}
+	}
+}
+.carousel-inner > {
+	.item {
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.6s ease-in-out right;
+	}
+	.active {
+		right: 0;
+		&.right {
+			left: -100%;
+		}
+		&.left {
+			right: 100%;
+		}
+	}
+	.next {
+		right: 100%;
+		left: 0;
+		&.left {
+			right: 0;
+		}
+	}
+	.prev {
+		right: -100%;
+		&.right {
+			right: 0;
+		}
+	}
+}
+.pull-right.flip {
+	float: left !important;
+}

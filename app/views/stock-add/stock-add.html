@@ -1,0 +1,49 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">
+				Add Stock
+			</h1>
+		</div>
+	</div>
+	<div class="row" ng-show="status.level ==('ERROR' || 'SUCCESS')">
+		<div ng-show="status.level =='ERROR' " class="alert alert-warning alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong>Warning!</strong> {{status.message}}
+		</div>
+		<div ng-show="status.level =='SUCCESS' " class="alert alert-success alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong>Success!</strong> {{status.message}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="input-group">
+				
+				<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+				<input type="text" class="form-control" ng-model="searchText" typeahead="stock.name for stock in searchStocks | filter:$viewValue | limitTo:8" placeholder="Search for...">
+			</div>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover table-striped">
+					<thead>
+						<tr>
+							<th>Company Ticker</th>
+							<th>Company Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="stock in searchStocks | filter: searchText | limitTo:10">
+							<td> <a ui-sref="stock-details({ ticker: stock.ticker})" ng-click="addStockToPortfolio(stock)"><i class="fa fa-fw fa-plus"></i></a> {{stock.ticker}}</td>
+							<td>{{stock.name}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

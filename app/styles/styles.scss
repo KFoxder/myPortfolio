@@ -1,0 +1,82 @@
+$primaryColor: #0A90D8;
+$secondaryColor: #FEFEF9;
+
+body {
+	background: $secondaryColor;
+	color: #0A0A3F;
+	font-family: 'Open Sans', sans-serif;
+	
+	.navbar {
+		background: $primaryColor;
+		color: white;
+		border-bottom:  1px solid #FEF1E1;
+		li {
+			a {
+				color: white;
+				&:hover{
+					color: #FF7A00;
+					background: white;
+
+				}
+				&:focus{
+					color: #FF7A00;
+					background: white;
+					
+				}
+			}
+		}
+		.dropdown-menu {
+			white-space: normal;
+			width: 300px;
+		}
+		.navbar-brand {
+			color: white;
+			font-family: 'Lobster', cursive;
+		}
+		.side-nav {
+			background: white;
+			border-right: 1px solid #FEF1E1;
+
+			.side-nav-item {
+				color: #0A0A3F;
+				border-bottom: 1px solid $secondaryColor;
+			}
+		}
+	}
+//#wrapper > nav > div.collapse.navbar-collapse.navbar-ex1-collapse > ul > li > a
+#wrapper{
+	.nav {
+		ul {
+			li {
+				a {
+					color: $primaryColor;
+					&:hover {
+						color: #FF7A00;
+						background: white;
+					}
+					&:focus {
+						color: #B25500;
+					}
+				}
+			}
+		}
+	}
+	
+
+}
+#stock-details-container,#portfolio-container,#info-container {
+	.row {
+		background: $secondaryColor;
+	}
+}
+
+.page-header {
+	color: $primaryColor;
+}
+p {
+	color: #0A0A3F;
+}	
+}
+
+
+

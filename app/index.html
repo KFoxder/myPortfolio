@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" ng-app="mpApp">
+  <head>
+    <meta charset="utf-8">
+    <title>myPortfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel='stylesheet' href='bower_components/morrisjs/morris.css' />
+    <link rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.css' />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link href="styles/sb-admin.css" rel="stylesheet" type="text/css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <!-- endbuild -->
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+ <body ng-controller="MainController">
+   <div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/">myPortfolio</a>
+        </div>
+        <!-- Top Menu Items -->
+        <ul class="nav navbar-right top-nav">
+        <li class="dropdown">
+            <a ng-click="addStockDialog()" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus"></i></a>
+        </li>
+    </ul>
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav side-nav">
+            <li>
+                <a data-toggle="collapse" data-target="#portfolioDropdown"><i class="fa fa-fw fa-list-alt"></i> Portfolio <span class="pull-right">{{currentPortfolio.length}}</span></a>
+                <ul id="portfolioDropdown" class="collapse">
+                    <li class="side-nav-item" ng-repeat="stock in currentPortfolio track by $index">
+                        <a ui-sref="stock-details({ ticker: stock.ticker})" ><span >{{stock.ticker}}</span> 
+                            <span ui-sref="home" ng-click="removeStockFromPortfolio(stock)"class="pull-right"><i class="fa fa-fw fa-minus"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ng-click="addStockDialog()"><i class="fa fa-fw fa-plus"></i> Add Stock</a> 
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+<div id="page-wrapper">
+
+    <div class="container-fluid">
+      <div ui-view></div>
+  </div>
+</div>
+
+</div>
+<!-- /#wrapper -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/raphael/raphael.js"></script>
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script src="bower_components/morrisjs/morris.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/home.js"></script>
+        <script src="scripts/controllers/info.js"></script>
+        <script src="scripts/controllers/stock-add.js"></script>
+        <script src="scripts/controllers/stock-details.js"></script>
+        <script src="scripts/services/stock-market-data-service.js"></script>
+        <!-- endbuild -->
+
+        <!-- Custom Javascript -->
+
+</body>
+</html>

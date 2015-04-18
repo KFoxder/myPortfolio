@@ -1,0 +1,1109 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"val",
+				"valueInput"
+			],
+			[
+				"ng-mou",
+				"ng-mouseup	AngularJS"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ng-mo",
+				"ng-mouseover	AngularJS"
+			],
+			[
+				"st",
+				"stock"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"sto",
+				"stockList"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"coo",
+				"cookieAPI"
+			],
+			[
+				"ma",
+				"marketDataAPI"
+			],
+			[
+				"se",
+				"searchStocks"
+			],
+			[
+				"ge",
+				"getSearchStocks"
+			],
+			[
+				"ng-s",
+				"ng-show	AngularJS"
+			],
+			[
+				"tic",
+				"tickerInput"
+			],
+			[
+				"pr",
+				"primaryColor"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"t",
+				"ticker"
+			],
+			[
+				"$cooki",
+				"$cookieStore	AngularJS"
+			],
+			[
+				"A",
+				"APP_CONFIG"
+			],
+			[
+				"$coo",
+				"$cookieStore	AngularJS"
+			],
+			[
+				"fa",
+				"factory"
+			],
+			[
+				"$cook",
+				"$cookieStore	AngularJS"
+			],
+			[
+				"$co",
+				"$cookies	AngularJS"
+			],
+			[
+				"sea",
+				"searchText"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"data",
+				"dataPeriod"
+			],
+			[
+				"mark",
+				"marketDataService"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"for",
+				"forEach	AngularJS"
+			],
+			[
+				"stoc",
+				"stock-details"
+			],
+			[
+				"stock",
+				"stock-add"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"win",
+				"winWidth"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"blc",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"pho",
+				"photoDesc"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"l",
+				"longitude"
+			],
+			[
+				"ph",
+				"photoDesc"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"_PHOTO",
+				"_PHOTODOC"
+			],
+			[
+				"tr",
+				"toUpperCase"
+			],
+			[
+				"us",
+				"userUpload"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"phot",
+				"photoName"
+			],
+			[
+				"user",
+				"userUpload"
+			],
+			[
+				"sor",
+				"sortBy"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"so",
+				"sortBy"
+			],
+			[
+				"sort",
+				"sortBy"
+			],
+			[
+				"n",
+				"numberOfRate"
+			],
+			[
+				"no",
+				"noUpload"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"photo",
+				"photopopup"
+			],
+			[
+				"photoR",
+				"photosRatedResult"
+			],
+			[
+				"photoRate",
+				"photosRatedName"
+			],
+			[
+				"userU",
+				"userUpload"
+			],
+			[
+				"dat",
+				"data-icon"
+			],
+			[
+				"_",
+				"_PHOTO"
+			],
+			[
+				"ui",
+				"ui-btn-right"
+			],
+			[
+				"easy",
+				"easyimg"
+			],
+			[
+				"photoL",
+				"photoLink"
+			],
+			[
+				"photot",
+				"photoToDeleteID"
+			],
+			[
+				"photoID",
+				"photoToDeleteID"
+			],
+			[
+				"photoTo",
+				"photoToDeleteID"
+			],
+			[
+				"en",
+				"ensureAuthenticated"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"phto",
+				"photoIDs"
+			],
+			[
+				"cu",
+				"curPhoto"
+			],
+			[
+				"is",
+				"isEmail"
+			],
+			[
+				"tem",
+				"tempemail"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"temp",
+				"tempemail"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"s",
+				"session"
+			],
+			[
+				"Party",
+				"PartyModel"
+			],
+			[
+				"Pa",
+				"Party"
+			],
+			[
+				"R",
+				"ReturnVal"
+			],
+			[
+				"P",
+				"PartySchema"
+			],
+			[
+				"mongo",
+				"mongoose"
+			],
+			[
+				"h",
+				"home"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 4979,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 2647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web.js",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/styles.scss",
+			"settings":
+			{
+				"buffer_size": 1189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/stock-details.js",
+			"settings":
+			{
+				"buffer_size": 3169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/sb-admin.scss",
+			"settings":
+			{
+				"buffer_size": 4015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/sb-admin.css",
+			"settings":
+			{
+				"buffer_size": 2350,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 11643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@media (min-width:768px){#wrapper{padding-right:225px;padding-left:0}.side-nav{right:0;left:auto}}",
+			"file": "app/styles/sb-admin-rtl.min.css",
+			"file_size": 98,
+			"file_write_time": 1429054002000000,
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/services/stock-market-data-service.js",
+			"settings":
+			{
+				"buffer_size": 3216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/home.html",
+			"settings":
+			{
+				"buffer_size": 1466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/stock-details/stock-details.html",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/css/sb-admin.css",
+		"/Users/kevin_fox/Documents/securityScorecard2/yeoman/app/styles/bootstrap-rtl.scss",
+		"/Users/kevin_fox/Documents/securityScorecard2/yeoman/app/scripts/controllers/home.js",
+		"/Users/kevin_fox/Documents/securityScorecard2/yeoman/app/scripts/controllers/stock-add.js",
+		"/Users/kevin_fox/Documents/securityScorecard2/yeoman/app/styles/styles.css",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/js/morris/morris-data.js",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/view1/view1.html",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/view1/view1.js",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/bower.json",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/index-async.html",
+		"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/app.css",
+		"/Users/kevin_fox/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kevin_fox/Documents/securityScorecard/startbootstrap-sb-admin-1.0.3/index.html",
+		"/Users/kevin_fox/Documents/securityScorecard/partials/main.html",
+		"/Users/kevin_fox/Documents/securityScorecard/securityScorecard.js",
+		"/Users/kevin_fox/Documents/swagger/server.js",
+		"/Users/kevin_fox/Documents/swagger/test/testv1.json",
+		"/Users/kevin_fox/Documents/swagger/testDonut2.json",
+		"/Users/kevin_fox/Downloads/mm.c",
+		"/Users/kevin_fox/Documents/Grading/proj2_processed_Kevin/ph915/zzz_empty_dir_diff",
+		"/Users/kevin_fox/Documents/Grading/proj2_processed_Kevin/ph915/zzz_empty_dir.out",
+		"/Users/kevin_fox/Documents/Grading/proj2_processed_Kevin/ph915/zzz_large_dir.out",
+		"/Users/kevin_fox/Documents/Grading/proj2_processed_Kevin/ph915/zzz_extra_credit_dir.out",
+		"/Users/kevin_fox/Documents/Estimize_Data/allDates.json",
+		"/Users/kevin_fox/Documents/Estimize_Data/User_New.json",
+		"/Users/kevin_fox/Documents/Estimize_Data/Tickers.json",
+		"/Users/kevin_fox/Documents/Estimize_Data/Estimates.json",
+		"/Users/kevin_fox/Documents/Fall 2013/peixikwee.com/css/HW2.css",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/trending",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/public/css/input.css",
+		"/Users/kevin_fox/Documents/Fall 2013/Practical Data Science/Project/adFilteredTrans.json",
+		"/Users/kevin_fox/Documents/Fall 2013/App Class/phoneGap/testapp/www/js/index.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/index.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/html/profile.html",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/layout_inside.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/html/myphotos.html",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/html/new.html",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/public/js/rating.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/public/js/profile.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/nodetest1/views/userlist.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/nodetest1/views/index.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/models/models.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/data/schemas/PhotoSchema.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/layout.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/home.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/routes/index.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/routes/home.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/views/add.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/routes/add.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/data/PhotoSchema.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/data/PartySchemaGen.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/data/PartySchema.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/data/schemas/PhototSchema.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/appTest1/routes/user.js",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/nodetest1/views/helloWorld.jade",
+		"/Users/kevin_fox/Documents/Fall 2013/Nodejs/nodetest1/routes/helloWorld.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"",
+			"!=",
+			"==",
+			"\"",
+			"'http://dev.markitondemand.com/Api/v2/",
+			"$black_17.5",
+			"$black_7.5",
+			"black_0.01",
+			"!===",
+			"Morris",
+			"morris",
+			"==",
+			"!=",
+			"container-fluid",
+			"'$scope', ",
+			"href=\"#\"",
+			"href=\"#\"\n\n",
+			"href=\"#",
+			"view1",
+			"versio",
+			"vers",
+			"version",
+			"visible",
+			".visible-tablet",
+			"@me",
+			"nav",
+			"link",
+			"delete",
+			"console",
+			"User"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"!==",
+			"===",
+			"'",
+			"APP_CONSTANTS.MarketAPIBaseUrl+'",
+			"$black_17",
+			"$black_7",
+			"!==",
+			"===",
+			"!==",
+			" ",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 4979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1747,
+								1747
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 2647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1132,
+								1138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "web.js",
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Procfile",
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/styles/styles.scss",
+					"settings":
+					{
+						"buffer_size": 1189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/controllers/stock-details.js",
+					"settings":
+					{
+						"buffer_size": 3169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2286,
+								2286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 371.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/styles/sb-admin.scss",
+					"settings":
+					{
+						"buffer_size": 4015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								872,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/styles/sb-admin.css",
+					"settings":
+					{
+						"buffer_size": 2350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 11643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9618,
+								9618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5222.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/sb-admin-rtl.min.css",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/scripts/services/stock-market-data-service.js",
+					"settings":
+					{
+						"buffer_size": 3216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3185,
+								3185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/home/home.html",
+					"settings":
+					{
+						"buffer_size": 1466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/views/stock-details/stock-details.html",
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".css",
+				"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/css/koala/styles.scss"
+			],
+			[
+				"",
+				"/Users/kevin_fox/Documents/securityScorecard2/angular-seed-master/app/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
